@@ -9,7 +9,7 @@ public class ConnectionUtility {
 	private final String driverName="oracle.jdbc.driver.OracleDriver";
 	private final String connectionUrl="jdbc:oracle:thin:@localhost:1521/orcl";
 	private final String username="system";
-	private final String password="Cls12345";
+	private final String password="xyz";
 	private Connection connectionObj=null;
 	
 	public Connection createConnection() throws ClassNotFoundException, SQLException{
